@@ -8,12 +8,9 @@ const { log, logWarn, logError } = require('../utils/logger');
 
 // Base URL of the Torrentio service.
 const TORRENTIO_BASE =
-  process.env.TORRENTIO_BASE || 'https://torrentio.strem.fun';
+  process.env.TORRENTIO_BASE || 'https://jacred.stream/';
 
-// Path segment before `/stream/...` (quality filter etc.).
-const TORRENTIO_PATH_PREFIX =
-  process.env.TORRENTIO_PATH_PREFIX ||
-  'qualityfilter=threed,480p,scr,cam,unknown';
+
 
 // Base URL of the TorrServer instance.
 // Used as a fallback when no explicit `torrserver` is provided via query/config.
