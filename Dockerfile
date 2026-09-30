@@ -8,8 +8,7 @@ RUN npm install --omit=dev
 COPY . .
 
 ENV PORT=8080 \
-    TORRENTIO_BASE=https://torrentio.strem.fun \
-    TORRENTIO_PATH_PREFIX=qualityfilter=threed,480p,scr,cam,unknown
+    TORRENTIO_BASE=https://jacred.stream/
 
 EXPOSE 8080
 
