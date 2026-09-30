@@ -10,7 +10,7 @@
     "stremio",
     "addon",
     "torrent",
-    "torrentio",
+    "jacred.stream/",
     "torrserver",
     "streaming"
   ],
